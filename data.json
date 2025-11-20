@@ -10,5 +10,149 @@
     "descricao": "Ubuntu é um sistema operacional livre e de código aberto, baseado no kernel Linux, que pode ser usado em computadores pessoais, servidores e dispositivos IoT. Desenvolvido pela empresa Canonical, é conhecido pela facilidade de uso, estabilidade e é uma alternativa gratuita a sistemas como Windows ou macOS.",
     "ano": 2004,
     "link": "https://www.ubuntu.com/"
+},
+{
+    "nome": "Windows",
+    "descricao": "Microsoft Windows é uma família de sistemas operacionais desenvolvidos, comercializados e vendidos pela Microsoft. É o sistema operacional de computador pessoal mais popular do mundo, com mais de 90% de participação de mercado.",
+    "ano": 1985,
+    "link": "https://www.microsoft.com/windows"
+},
+{
+    "nome": "macOS",
+    "descricao": "macOS é um sistema operacional desenvolvido e comercializado pela Apple Inc. desde 2001. É o principal sistema operacional para a linha de computadores Mac da Apple.",
+    "ano": 2001,
+    "link": "https://www.apple.com/macos/"
+},
+{
+    "nome": "Android",
+    "descricao": "Android é um sistema operacional móvel baseado em uma versão modificada do kernel Linux e outro software de código aberto, projetado principalmente para dispositivos móveis com tela de toque, como smartphones e tablets.",
+    "ano": 2008,
+    "link": "https://www.android.com/"
+},
+{
+    "nome": "Fedora",
+    "descricao": "Fedora é uma distribuição Linux desenvolvida pelo Projeto Fedora, apoiado pela comunidade e patrocinado pela Red Hat. É conhecido por seu foco em inovação e por integrar novas tecnologias desde o início.",
+    "ano": 2003,
+    "link": "https://fedoraproject.org/"
+},
+{
+    "nome": "Linux Mint",
+    "descricao": "Linux Mint é uma distribuição Linux baseada no Ubuntu, conhecida por sua simplicidade e por incluir, por padrão, codecs de mídia que facilitam o uso para iniciantes. Oferece uma experiência de desktop mais tradicional e é muito popular entre usuários que migram de outros sistemas operacionais.",
+    "ano": 2006,
+    "link": "https://linuxmint.com/"
+},
+{
+    "nome": "Arch Linux",
+    "descricao": "Arch Linux é uma distribuição Linux para usuários avançados que valorizam simplicidade, modernidade e personalização. Segue um modelo de lançamento contínuo (rolling release), o que significa que o sistema está sempre atualizado com as últimas versões dos softwares.",
+    "ano": 2002,
+    "link": "https://archlinux.org/"
+},
+{
+    "nome": "FreeBSD",
+    "descricao": "FreeBSD é um sistema operacional livre e de código aberto do tipo Unix, descendente da Berkeley Software Distribution (BSD). É conhecido por seu desempenho, estabilidade e recursos avançados de rede, sendo amplamente utilizado em servidores e sistemas embarcados.",
+    "ano": 1993,
+    "link": "https://www.freebsd.org/"
+},
+{
+    "nome": "Chrome OS",
+    "descricao": "Chrome OS é um sistema operacional baseado em Linux e desenvolvido pelo Google. Ele é projetado para ser rápido, simples e seguro, utilizando o navegador Chrome como sua principal interface. É o sistema padrão dos notebooks Chromebooks.",
+    "ano": 2011,
+    "link": "https://www.google.com/chromebook/chrome-os/"
+},
+{
+    "nome": "iOS",
+    "descricao": "iOS é o sistema operacional móvel da Apple, criado exclusivamente para seus dispositivos como o iPhone e o iPad (onde agora é chamado de iPadOS). É conhecido por sua segurança, desempenho otimizado e ecossistema de aplicativos robusto através da App Store.",
+    "ano": 2007,
+    "link": "https://www.apple.com/br/ios/"
+},
+{
+    "nome": "Solaris",
+    "descricao": "Solaris é um sistema operacional do tipo Unix originalmente desenvolvido pela Sun Microsystems. É conhecido por sua escalabilidade, especialmente em sistemas SPARC, e por introduzir tecnologias inovadoras como DTrace e ZFS. Após a aquisição da Sun pela Oracle, ele continuou a ser desenvolvido como Oracle Solaris.",
+    "ano": 1992,
+    "link": "https://www.oracle.com/solaris/"
+},
+{
+    "nome": "OpenBSD",
+    "descricao": "OpenBSD é um sistema operacional livre e de código aberto do tipo Unix, derivado da Berkeley Software Distribution (BSD). O projeto é amplamente reconhecido por seu foco intransigente em segurança, criptografia integrada e qualidade de código.",
+    "ano": 1995,
+    "link": "https://www.openbsd.org/"
+},
+{
+    "nome": "NetBSD",
+    "descricao": "NetBSD é outro sistema operacional livre e de código aberto da família BSD. Seu principal diferencial é a alta portabilidade, sendo capaz de rodar em uma vasta gama de arquiteturas de hardware, desde servidores modernos até sistemas embarcados e computadores antigos.",
+    "ano": 1993,
+    "link": "https://www.netbsd.org/"
+},
+{
+    "nome": "Kali Linux",
+    "descricao": "Kali Linux é uma distribuição Linux baseada em Debian, voltada para auditoria de segurança e testes de penetração. Ela vem pré-carregada com centenas de ferramentas para hacking ético, análise forense digital e avaliação de vulnerabilidades.",
+    "ano": 2013,
+    "link": "https://www.kali.org/"
+},
+{
+    "nome": "Manjaro Linux",
+    "descricao": "Manjaro Linux é uma distribuição Linux baseada no Arch Linux, mas com foco em ser amigável para iniciantes. Oferece os benefícios do Arch, como o modelo rolling release e o acesso ao Arch User Repository (AUR), com um processo de instalação e configuração simplificado.",
+    "ano": 2011,
+    "link": "https://manjaro.org/"
+},
+{
+    "nome": "elementary OS",
+    "descricao": "elementary OS é uma distribuição Linux baseada no Ubuntu que se destaca pelo seu design elegante e experiência de usuário coesa. Possui seu próprio ambiente de desktop, o Pantheon, e um ecossistema de aplicativos que seguem a mesma filosofia de design.",
+    "ano": 2011,
+    "link": "https://elementary.io/"
+},
+{
+    "nome": "Zorin OS",
+    "descricao": "Zorin OS é uma distribuição Linux baseada no Ubuntu, projetada especialmente para usuários que estão migrando do Windows e macOS. Oferece interfaces que imitam a aparência desses sistemas, facilitando a transição e o aprendizado.",
+    "ano": 2009,
+    "link": "https://zorin.com/os/"
+},
+{
+    "nome": "Pop!_OS",
+    "descricao": "Pop!_OS é uma distribuição Linux baseada no Ubuntu, desenvolvida pela fabricante de computadores System76. É otimizada para um fluxo de trabalho produtivo, especialmente para desenvolvedores e profissionais de criação, com recursos como o auto-tiling e gerenciamento de drivers gráficos simplificado.",
+    "ano": 2017,
+    "link": "https://pop.system76.com/"
+},
+{
+    "nome": "Red Hat Enterprise Linux",
+    "descricao": "Red Hat Enterprise Linux (RHEL) é uma distribuição Linux comercial desenvolvida pela Red Hat para o mercado corporativo. É conhecida por sua estabilidade, segurança de nível empresarial e suporte de longo prazo, sendo uma das plataformas líderes para servidores e nuvem.",
+    "ano": 2002,
+    "link": "https://www.redhat.com/pt-br/technologies/linux-platforms/enterprise-linux"
+},
+{
+    "nome": "Parrot OS",
+    "descricao": "Parrot OS é uma distribuição Linux baseada em Debian, focada em segurança, privacidade e desenvolvimento. É amplamente utilizada por profissionais de segurança cibernética para testes de penetração, análise forense digital, engenharia reversa e desenvolvimento de software. Oferece uma vasta gama de ferramentas pré-instaladas para essas finalidades.",
+    "ano": 2013,
+    "link": "https://parrotsec.org/"
+},
+{
+    "nome": "EndeavourOS",
+    "descricao": "EndeavourOS é uma distribuição Linux baseada no Arch Linux, projetada para ser uma sucessora espiritual do Antergos. Ela oferece uma experiência Arch quase pura, mas com um instalador gráfico fácil de usar e um foco na comunidade. É ideal para usuários que desejam a flexibilidade e o modelo rolling release do Arch sem a complexidade da instalação manual.",
+    "ano": 2019,
+    "link": "https://endeavouros.com/"
+},
+{
+    "nome": "CentOS Stream",
+    "descricao": "CentOS Stream é uma plataforma de desenvolvimento upstream para o Red Hat Enterprise Linux (RHEL). Ele serve como um ponto de encontro para a comunidade e os desenvolvedores da Red Hat colaborarem em futuras versões do RHEL, oferecendo um fluxo contínuo de atualizações e recursos.",
+    "ano": 2020,
+    "link": "https://www.centos.org/centos-stream/"
+},
+{
+    "nome": "openSUSE",
+    "descricao": "openSUSE é uma distribuição Linux livre e de código aberto, patrocinada pela SUSE e outras empresas. É conhecida por sua estabilidade, ferramentas de gerenciamento poderosas como o YaST, e por oferecer duas versões principais: Leap (lançamento fixo) e Tumbleweed (rolling release).",
+    "ano": 2005,
+    "link": "https://www.opensuse.org/"
+},
+{
+    "nome": "Debian GNU/Hurd",
+    "descricao": "Debian GNU/Hurd é uma variante do sistema operacional Debian que utiliza o kernel GNU Hurd em vez do kernel Linux. O Hurd é um conjunto de servidores que rodam sobre um microkernel (Mach), implementando funcionalidades de sistemas operacionais. É um projeto de longa data que busca uma alternativa ao kernel monolítico.",
+    "ano": 1998,
+    "link": "https://www.debian.org/ports/hurd/"
+},
+{
+    "nome": "Haiku",
+    "descricao": "Haiku é um sistema operacional de código aberto que visa ser compatível com o BeOS, um sistema operacional multimídia popular nos anos 90. Ele é projetado para ser rápido, eficiente e fácil de usar, com um foco em computação pessoal e multimídia.",
+    "ano": 2001,
+    "link": "https://www.haiku-os.org/"
 }
 ]
