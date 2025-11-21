@@ -1,158 +1,744 @@
 [
-{
+  {
     "nome": "Debian",
-    "descricao": "Debian é um sistema operacional livre e de código aberto, baseado no kernel Linux, conhecido pela sua estabilidade, segurança e universalidade. Ele é desenvolvido e mantido por uma comunidade global de voluntários e serve de base para muitas outras distribuições Linux, como o popular Ubuntu. O Debian é usado em uma vasta gama de dispositivos, desde laptops e desktops até servidores",
-    "ano": 1993,
-    "link": "https://www.debian.org/"
-},
-{
+    "descricao": "O Debian é um dos sistemas operacionais de código aberto mais antigos e respeitados, construído sobre o kernel Linux. Reconhecido por sua excepcional estabilidade e segurança rigorosa, serve como base para inúmeras outras distribuições, incluindo o Ubuntu. Sua natureza universal permite a implantação em diversos ambientes, desde computadores pessoais até servidores empresariais críticos, sendo mantido por uma comunidade global de desenvolvedores voluntários.",
+    "data_criacao": 1993,
+    "link": "https://www.debian.org/",
+    "tags": [
+      "Open-Source",
+      "Servidor",
+      "Desktop",
+      "Estabilidade",
+      "Linux",
+      "Comunitário"
+    ]
+  },
+  {
+    "nome": "Windows 11",
+    "descricao": "Windows 11 representa a mais recente evolução do sistema operacional da Microsoft, com uma interface completamente redesenhada e foco na produtividade moderna. Introduz recursos como widgets inteligentes, layouts de snap avançados e integração nativa com o Microsoft Teams, oferecendo uma experiência fluida tanto para trabalho criativo quanto para entretenimento, com especial atenção à segurança e desempenho.",
+    "data_criacao": "2021",
+    "link": "https://www.microsoft.com/pt-pt/windows/windows-11",
+    "tags": [
+      "Desktop",
+      "Proprietário",
+      "Gaming",
+      "Produtividade",
+      "Moderno",
+      "Segurança"
+    ]
+  },
+  {
+    "nome": "macOS Sonoma",
+    "descricao": "macOS Sonoma é a versão mais recente do sistema operacional da Apple para Mac, trazendo widgets interativos na área de trabalho, modos de vídeo-conferência aprimorados e funcionalidades de jogos expandidas. Otimizado exclusivamente para os chips M-series da Apple, oferece desempenho excepcional e eficiência energética superior, atendendo às demandas de usuários criativos e profissionais que exigem poder de processamento avançado.",
+    "data_criacao": "2023",
+    "link": "https://www.apple.com/macos/sonoma/",
+    "tags": [
+      "Desktop",
+      "Proprietário",
+      "Design",
+      "Performance",
+      "Apple Silicon",
+      "Criativo"
+    ]
+  },
+  {
     "nome": "Ubuntu",
-    "descricao": "Ubuntu é um sistema operacional livre e de código aberto, baseado no kernel Linux, que pode ser usado em computadores pessoais, servidores e dispositivos IoT. Desenvolvido pela empresa Canonical, é conhecido pela facilidade de uso, estabilidade e é uma alternativa gratuita a sistemas como Windows ou macOS.",
-    "ano": 2004,
-    "link": "https://www.ubuntu.com/"
-},
-{
-    "nome": "Windows",
-    "descricao": "Microsoft Windows é uma família de sistemas operacionais desenvolvidos, comercializados e vendidos pela Microsoft. É o sistema operacional de computador pessoal mais popular do mundo, com mais de 90% de participação de mercado.",
-    "ano": 1985,
-    "link": "https://www.microsoft.com/windows"
-},
-{
-    "nome": "macOS",
-    "descricao": "macOS é um sistema operacional desenvolvido e comercializado pela Apple Inc. desde 2001. É o principal sistema operacional para a linha de computadores Mac da Apple.",
-    "ano": 2001,
-    "link": "https://www.apple.com/macos/"
-},
-{
+    "descricao": "Ubuntu é uma das distribuições Linux mais populares mundialmente, conhecida por sua facilidade de uso e suporte robusto da Canonical. Amplamente utilizado em desktops, servidores e ambientes de nuvem, oferece versões LTS com suporte de longo prazo ideal para empresas, além de uma vasta comunidade de usuários e desenvolvedores que contribuem para seu ecossistema diversificado.",
+    "data_criacao": "2004",
+    "link": "https://ubuntu.com/",
+    "tags": [
+      "Desktop",
+      "Servidor",
+      "Cloud",
+      "Open-Source",
+      "User-Friendly",
+      "LTS"
+    ]
+  },
+  {
+    "nome": "Fedora Linux",
+    "descricao": "Fedora Linux é uma distribuição comunitária de ponta que serve como plataforma de inovação para tecnologias emergentes, muitas das quais são posteriormente incorporadas no Red Hat Enterprise Linux. Reconhecida por adotar rapidamente tecnologias de vanguarda como Wayland e Systemd, é ideal para desenvolvedores, administradores de sistemas e entusiastas que buscam as últimas inovações em software livre.",
+    "data_criacao": "2003",
+    "link": "https://getfedora.org/",
+    "tags": [
+      "Desktop",
+      "Inovação",
+      "Comunitário",
+      "Linux",
+      "Developer-Friendly",
+      "Cutting-Edge"
+    ]
+  },
+  {
+    "nome": "Red Hat Enterprise Linux (RHEL)",
+    "descricao": "RHEL é a solução empresarial premium da Red Hat para ambientes de missão crítica, oferecendo estabilidade incomparável, segurança reforçada e suporte corporativo abrangente. Utilizado extensivamente em servidores, data centers e infraestruturas de nuvem híbrida, é a escolha preferida para aplicações corporativas que demandam confiabilidade máxima e certificações rigorosas.",
+    "data_criacao": "2000",
+    "link": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux",
+    "tags": [
+      "Servidor",
+      "Empresarial",
+      "Cloud",
+      "Estabilidade",
+      "Suporte",
+      "Mission-Critical"
+    ]
+  },
+  {
     "nome": "Android",
-    "descricao": "Android é um sistema operacional móvel baseado em uma versão modificada do kernel Linux e outro software de código aberto, projetado principalmente para dispositivos móveis com tela de toque, como smartphones e tablets.",
-    "ano": 2008,
-    "link": "https://www.android.com/"
-},
-{
-    "nome": "Fedora",
-    "descricao": "Fedora é uma distribuição Linux desenvolvida pelo Projeto Fedora, apoiado pela comunidade e patrocinado pela Red Hat. É conhecido por seu foco em inovação e por integrar novas tecnologias desde o início.",
-    "ano": 2003,
-    "link": "https://fedoraproject.org/"
-},
-{
-    "nome": "Linux Mint",
-    "descricao": "Linux Mint é uma distribuição Linux baseada no Ubuntu, conhecida por sua simplicidade e por incluir, por padrão, codecs de mídia que facilitam o uso para iniciantes. Oferece uma experiência de desktop mais tradicional e é muito popular entre usuários que migram de outros sistemas operacionais.",
-    "ano": 2006,
-    "link": "https://linuxmint.com/"
-},
-{
-    "nome": "Arch Linux",
-    "descricao": "Arch Linux é uma distribuição Linux para usuários avançados que valorizam simplicidade, modernidade e personalização. Segue um modelo de lançamento contínuo (rolling release), o que significa que o sistema está sempre atualizado com as últimas versões dos softwares.",
-    "ano": 2002,
-    "link": "https://archlinux.org/"
-},
-{
-    "nome": "FreeBSD",
-    "descricao": "FreeBSD é um sistema operacional livre e de código aberto do tipo Unix, descendente da Berkeley Software Distribution (BSD). É conhecido por seu desempenho, estabilidade e recursos avançados de rede, sendo amplamente utilizado em servidores e sistemas embarcados.",
-    "ano": 1993,
-    "link": "https://www.freebsd.org/"
-},
-{
-    "nome": "Chrome OS",
-    "descricao": "Chrome OS é um sistema operacional baseado em Linux e desenvolvido pelo Google. Ele é projetado para ser rápido, simples e seguro, utilizando o navegador Chrome como sua principal interface. É o sistema padrão dos notebooks Chromebooks.",
-    "ano": 2011,
-    "link": "https://www.google.com/chromebook/chrome-os/"
-},
-{
+    "descricao": "Android é o sistema operacional móvel mais popular globalmente, desenvolvido pelo Google com base no kernel Linux. Dominante no mercado de smartphones e tablets, oferece um ecossistema vasto através da Google Play Store com milhões de aplicações, além de grande flexibilidade para customização por fabricantes e usuários finais, suportando desde dispositivos entry-level até flagships premium.",
+    "data_criacao": "2008",
+    "link": "https://www.android.com/",
+    "tags": [
+      "Mobile",
+      "Open-Source",
+      "Smartphones",
+      "Tablets",
+      "Google",
+      "Customizável"
+    ]
+  },
+  {
     "nome": "iOS",
-    "descricao": "iOS é o sistema operacional móvel da Apple, criado exclusivamente para seus dispositivos como o iPhone e o iPad (onde agora é chamado de iPadOS). É conhecido por sua segurança, desempenho otimizado e ecossistema de aplicativos robusto através da App Store.",
-    "ano": 2007,
-    "link": "https://www.apple.com/br/ios/"
-},
-{
-    "nome": "Solaris",
-    "descricao": "Solaris é um sistema operacional do tipo Unix originalmente desenvolvido pela Sun Microsystems. É conhecido por sua escalabilidade, especialmente em sistemas SPARC, e por introduzir tecnologias inovadoras como DTrace e ZFS. Após a aquisição da Sun pela Oracle, ele continuou a ser desenvolvido como Oracle Solaris.",
-    "ano": 1992,
-    "link": "https://www.oracle.com/solaris/"
-},
-{
-    "nome": "OpenBSD",
-    "descricao": "OpenBSD é um sistema operacional livre e de código aberto do tipo Unix, derivado da Berkeley Software Distribution (BSD). O projeto é amplamente reconhecido por seu foco intransigente em segurança, criptografia integrada e qualidade de código.",
-    "ano": 1995,
-    "link": "https://www.openbsd.org/"
-},
-{
-    "nome": "NetBSD",
-    "descricao": "NetBSD é outro sistema operacional livre e de código aberto da família BSD. Seu principal diferencial é a alta portabilidade, sendo capaz de rodar em uma vasta gama de arquiteturas de hardware, desde servidores modernos até sistemas embarcados e computadores antigos.",
-    "ano": 1993,
-    "link": "https://www.netbsd.org/"
-},
-{
+    "descricao": "iOS é o sistema operacional móvel exclusivo da Apple para iPhone e iPad, reconhecido por sua segurança robusta, desempenho otimizado e integração perfeita com o ecossistema Apple. Oferece uma experiência de usuário consistente e polida através da App Store com rigoroso controle de qualidade, atendendo tanto consumidores gerais quanto profissionais que valorizam privacidade e confiabilidade.",
+    "data_criacao": "2007",
+    "link": "https://www.apple.com/ios/",
+    "tags": [
+      "Mobile",
+      "Proprietário",
+      "Segurança",
+      "App Store",
+      "Apple Ecosystem",
+      "Otimizado"
+    ]
+  },
+  {
     "nome": "Kali Linux",
-    "descricao": "Kali Linux é uma distribuição Linux baseada em Debian, voltada para auditoria de segurança e testes de penetração. Ela vem pré-carregada com centenas de ferramentas para hacking ético, análise forense digital e avaliação de vulnerabilidades.",
-    "ano": 2013,
-    "link": "https://www.kali.org/"
-},
-{
-    "nome": "Manjaro Linux",
-    "descricao": "Manjaro Linux é uma distribuição Linux baseada no Arch Linux, mas com foco em ser amigável para iniciantes. Oferece os benefícios do Arch, como o modelo rolling release e o acesso ao Arch User Repository (AUR), com um processo de instalação e configuração simplificado.",
-    "ano": 2011,
-    "link": "https://manjaro.org/"
-},
-{
-    "nome": "elementary OS",
-    "descricao": "elementary OS é uma distribuição Linux baseada no Ubuntu que se destaca pelo seu design elegante e experiência de usuário coesa. Possui seu próprio ambiente de desktop, o Pantheon, e um ecossistema de aplicativos que seguem a mesma filosofia de design.",
-    "ano": 2011,
-    "link": "https://elementary.io/"
-},
-{
-    "nome": "Zorin OS",
-    "descricao": "Zorin OS é uma distribuição Linux baseada no Ubuntu, projetada especialmente para usuários que estão migrando do Windows e macOS. Oferece interfaces que imitam a aparência desses sistemas, facilitando a transição e o aprendizado.",
-    "ano": 2009,
-    "link": "https://zorin.com/os/"
-},
-{
-    "nome": "Pop!_OS",
-    "descricao": "Pop!_OS é uma distribuição Linux baseada no Ubuntu, desenvolvida pela fabricante de computadores System76. É otimizada para um fluxo de trabalho produtivo, especialmente para desenvolvedores e profissionais de criação, com recursos como o auto-tiling e gerenciamento de drivers gráficos simplificado.",
-    "ano": 2017,
-    "link": "https://pop.system76.com/"
-},
-{
-    "nome": "Red Hat Enterprise Linux",
-    "descricao": "Red Hat Enterprise Linux (RHEL) é uma distribuição Linux comercial desenvolvida pela Red Hat para o mercado corporativo. É conhecida por sua estabilidade, segurança de nível empresarial e suporte de longo prazo, sendo uma das plataformas líderes para servidores e nuvem.",
-    "ano": 2002,
-    "link": "https://www.redhat.com/pt-br/technologies/linux-platforms/enterprise-linux"
-},
-{
-    "nome": "Parrot OS",
-    "descricao": "Parrot OS é uma distribuição Linux baseada em Debian, focada em segurança, privacidade e desenvolvimento. É amplamente utilizada por profissionais de segurança cibernética para testes de penetração, análise forense digital, engenharia reversa e desenvolvimento de software. Oferece uma vasta gama de ferramentas pré-instaladas para essas finalidades.",
-    "ano": 2013,
-    "link": "https://parrotsec.org/"
-},
-{
-    "nome": "EndeavourOS",
-    "descricao": "EndeavourOS é uma distribuição Linux baseada no Arch Linux, projetada para ser uma sucessora espiritual do Antergos. Ela oferece uma experiência Arch quase pura, mas com um instalador gráfico fácil de usar e um foco na comunidade. É ideal para usuários que desejam a flexibilidade e o modelo rolling release do Arch sem a complexidade da instalação manual.",
-    "ano": 2019,
-    "link": "https://endeavouros.com/"
-},
-{
-    "nome": "CentOS Stream",
-    "descricao": "CentOS Stream é uma plataforma de desenvolvimento upstream para o Red Hat Enterprise Linux (RHEL). Ele serve como um ponto de encontro para a comunidade e os desenvolvedores da Red Hat colaborarem em futuras versões do RHEL, oferecendo um fluxo contínuo de atualizações e recursos.",
-    "ano": 2020,
-    "link": "https://www.centos.org/centos-stream/"
-},
-{
+    "descricao": "Kali Linux é uma distribuição especializada em segurança ofensiva e testes de penetração, equipada com mais de 600 ferramentas pré-instaladas para auditoria de segurança. Desenvolvida e mantida pela Offensive Security, é a escolha padrão para profissionais de cybersecurity, investigadores forenses e entusiastas de hacking ético, oferecendo ambiente pronto para avaliação de vulnerabilidades e testes de segurança.",
+    "data_criacao": "2013",
+    "link": "https://www.kali.org/",
+    "tags": [
+      "Cybersecurity",
+      "Penetration-Testing",
+      "Hacking-Ético",
+      "Auditoria",
+      "Linux",
+      "Forense"
+    ]
+  },
+  {
+    "nome": "FreeBSD",
+    "descricao": "FreeBSD é um sistema operacional Unix-like avançado da família BSD, amplamente reconhecido por sua performance excepcional e confiabilidade em servidores e aplicações de rede. Sua arquitetura robusta, licença permissiva BSD e sistema de ports bem organizado o tornam popular para serviços de internet críticos, storage enterprise, roteamento e aplicações embarcadas de alto desempenho.",
+    "data_criacao": "1993",
+    "link": "https://www.freebsd.org/",
+    "tags": [
+      "Servidor",
+      "BSD",
+      "Performance",
+      "Networking",
+      "Open-Source",
+      "Confiável"
+    ]
+  },
+  {
+    "nome": "ChromeOS",
+    "descricao": "ChromeOS é um sistema operacional leve desenvolvido pelo Google, centrado na computação em nuvem e aplicações web. Projetado principalmente para Chromebooks, oferece inicialização rápida, atualizações automáticas e integração nativa com serviços Google, sendo ideal para educação, usuários corporativos e quem prioriza simplicidade e segurança em ambientes conectados.",
+    "data_criacao": "2009",
+    "link": "https://www.google.com/chromebook/chrome-os/",
+    "tags": [
+      "Cloud",
+      "Educação",
+      "Leve",
+      "Desktop",
+      "Google",
+      "Web-Centric"
+    ]
+  },
+  {
+    "nome": "Alpine Linux",
+    "descricao": "Alpine Linux é uma distribuição Linux minimalista e focada em segurança, utilizando musl libc e BusyBox para criar um sistema extremamente leve e seguro. Sua pequena pegada e abordagem de segurança proativa o tornam ideal para containers Docker, aplicações embarcadas, firewalls e ambientes onde tamanho reduzido e segurança são prioritários.",
+    "data_criacao": "2005",
+    "link": "https://www.alpinelinux.org/",
+    "tags": [
+      "Container",
+      "Segurança",
+      "Leve",
+      "Embedded",
+      "Minimalista",
+      "Docker"
+    ]
+  },
+  {
     "nome": "openSUSE",
-    "descricao": "openSUSE é uma distribuição Linux livre e de código aberto, patrocinada pela SUSE e outras empresas. É conhecida por sua estabilidade, ferramentas de gerenciamento poderosas como o YaST, e por oferecer duas versões principais: Leap (lançamento fixo) e Tumbleweed (rolling release).",
-    "ano": 2005,
-    "link": "https://www.opensuse.org/"
-},
-{
-    "nome": "Debian GNU/Hurd",
-    "descricao": "Debian GNU/Hurd é uma variante do sistema operacional Debian que utiliza o kernel GNU Hurd em vez do kernel Linux. O Hurd é um conjunto de servidores que rodam sobre um microkernel (Mach), implementando funcionalidades de sistemas operacionais. É um projeto de longa data que busca uma alternativa ao kernel monolítico.",
-    "ano": 1998,
-    "link": "https://www.debian.org/ports/hurd/"
-},
-{
-    "nome": "Haiku",
-    "descricao": "Haiku é um sistema operacional de código aberto que visa ser compatível com o BeOS, um sistema operacional multimídia popular nos anos 90. Ele é projetado para ser rápido, eficiente e fácil de usar, com um foco em computação pessoal e multimídia.",
-    "ano": 2001,
-    "link": "https://www.haiku-os.org/"
-}
+    "descricao": "openSUSE é uma distribuição Linux robusta conhecida por sua ferramenta de configuração abrangente YaST e foco em estabilidade e versatilidade. Disponível nas versões Leap para estabilidade e Tumbleweed para atualizações contínuas, atende tanto usuários desktop quanto administradores de sistemas empresariais, com forte ênfase em ferramentas de desenvolvimento e automação.",
+    "data_criacao": "1994",
+    "link": "https://www.opensuse.org/",
+    "tags": [
+      "Desktop",
+      "Servidor",
+      "Open-Source",
+      "Comunitário",
+      "YaST",
+      "Estável"
+    ]
+  },
+  {
+    "nome": "Tails OS",
+    "descricao": "Tails OS é um sistema operacional live com foco máximo em privacidade e anonimato, roteando automaticamente todo o tráfego de internet através da rede Tor. Projetado para ser executado a partir de USB sem deixar rastros no computador host, é utilizado por jornalistas, ativistas e usuários preocupados com privacidade que necessitam de comunicação segura e anônima.",
+    "data_criacao": "2009",
+    "link": "https://tails.boum.org/",
+    "tags": [
+      "Anonimato",
+      "Privacidade",
+      "Cybersecurity",
+      "Live-USB",
+      "Tor",
+      "Segurança"
+    ]
+  },
+  {
+    "nome": "Rocky Linux",
+    "descricao": "Rocky Linux é uma distribuição enterprise-grade criada como sucessor espiritual do CentOS, focada em estabilidade e compatibilidade binária com Red Hat Enterprise Linux. Desenvolvido pelo fundador original do CentOS, oferece plataforma robusta para servidores corporativos e cloud, mantendo o espírito comunitário enquanto entrega qualidade enterprise.",
+    "data_criacao": "2021",
+    "link": "https://rockylinux.org/",
+    "tags": [
+      "Servidor",
+      "Cloud",
+      "Empresarial",
+      "Comunitário",
+      "Estabilidade",
+      "Production-Ready"
+    ]
+  },
+  {
+    "nome": "SteamOS",
+    "descricao": "SteamOS é uma distribuição Linux baseada em Debian desenvolvida pela Valve Corporation, otimizada especificamente para jogos e a plataforma Steam. Projetado inicialmente para Steam Machines e agora para o Steam Deck, oferece experiência de gaming console-like com acesso à vasta biblioteca Steam e compatibilidade com jogos Windows via Proton.",
+    "data_criacao": "2013",
+    "link": "https://store.steampowered.com/steamos",
+    "tags": [
+      "Gaming",
+      "Linux",
+      "Console",
+      "Desktop",
+      "Steam",
+      "Valve"
+    ]
+  },
+  {
+    "nome": "tvOS",
+    "descricao": "tvOS é o sistema operacional desenvolvido pela Apple exclusivamente para Apple TV, focado em entretenimento doméstico e streaming de mídia. Oferece interface otimizada para controle remoto, integração profunda com ecossistema Apple e acesso a vasto catálogo de aplicações de streaming, jogos e serviços de conteúdo através da App Store TV.",
+    "data_criacao": "2015",
+    "link": "https://www.apple.com/apple-tv-4k/",
+    "tags": [
+      "Entretenimento",
+      "Embedded",
+      "Streaming",
+      "Proprietário",
+      "Apple",
+      "TV"
+    ]
+  },
+  {
+    "nome": "watchOS",
+    "descricao": "watchOS é o sistema operacional da Apple desenvolvido especificamente para Apple Watch, focando em saúde, fitness e notificações contextuais em wearables. Oferece monitoramento avançado de atividades físicas, rastreamento de saúde e integração perfeita com iPhone, evoluindo constantemente com novos recursos médicos e de bem-estar.",
+    "data_criacao": "2015",
+    "link": "https://www.apple.com/watchos/",
+    "tags": [
+      "Wearable",
+      "Mobile",
+      "Saúde",
+      "Proprietário",
+      "Fitness",
+      "Apple-Watch"
+    ]
+  },
+  {
+    "nome": "OpenBSD",
+    "descricao": "OpenBSD é um sistema operacional da família BSD com foco extremo em segurança proativa, correção de código e documentação de qualidade. Desenvolvido com filosofia security-first, inclui recursos como stack protector, ASLR e criptografia integrada, sendo referência para firewalls, roteadores seguros e aplicações que demandam segurança máxima.",
+    "data_criacao": "1995",
+    "link": "https://www.openbsd.org/",
+    "tags": [
+      "BSD",
+      "Segurança",
+      "Networking",
+      "Criptografia",
+      "Servidor",
+      "Security-Focused"
+    ]
+  },
+  {
+    "nome": "Windows 10",
+    "descricao": "Windows 10 é um sistema operacional desktop amplamente adotado que unificou as linhas Windows, introduzindo o Windows como serviço com atualizações contínuas. Combinando interface familiar com recursos modernos como Cortana, Microsoft Edge e modo Tablet, mantém forte compatibilidade com software legado enquanto incorpora tecnologias contemporâneas para produtividade e gaming.",
+    "data_criacao": "2015",
+    "link": "https://www.microsoft.com/windows",
+    "tags": [
+      "Desktop",
+      "Híbrido",
+      "Gaming",
+      "Produtividade",
+      "Compatibilidade",
+      "Moderno"
+    ]
+  },
+  {
+    "nome": "Arch Linux",
+    "descricao": "Arch Linux é uma distribuição Linux minimalista e rolling release que prioriza simplicidade, modernidade e controle total do usuário. Seguindo a filosofia KISS e foco na simplicidade do código, oferece sistema personalizável desde a instalação através do Arch User Repository, sendo preferida por usuários avançados que valorizam conhecimento profundo do sistema.",
+    "data_criacao": "2002",
+    "link": "https://archlinux.org/",
+    "tags": [
+      "Desktop",
+      "Linux",
+      "Rolling-Release",
+      "DIY",
+      "Minimalista",
+      "Avançado"
+    ]
+  },
+  {
+    "nome": "macOS Ventura",
+    "descricao": "macOS Ventura é uma versão significativa do sistema operacional da Apple para Macs, introduzindo Stage Manager para organização de apps, Continuity Camera e ferramentas de produtividade avançadas. Conhecido por seu ecossistema integrado e design profissional refinado, oferece experiência coesa entre dispositivos Apple com performance otimizada para workflows criativos.",
+    "data_criacao": "2022",
+    "link": "https://www.apple.com/macos",
+    "tags": [
+      "Desktop",
+      "Produtividade",
+      "Design",
+      "Unix-like",
+      "Apple",
+      "Criativo"
+    ]
+  },
+  {
+    "nome": "Linux Mint",
+    "descricao": "Linux Mint é uma distribuição Linux baseada em Ubuntu/Debian, projetada especificamente para ser acessível para novos usuários enquanto mantém poder e estabilidade. Oferecendo ambientes desktop familiares como Cinnamon e MATE, inclui codecs multimídia pré-instalados e ferramentas de configuração intuitivas, sendo excelente transição do Windows para Linux.",
+    "data_criacao": "2006",
+    "link": "https://linuxmint.com/",
+    "tags": [
+      "Desktop",
+      "Linux",
+      "Iniciante",
+      "Estabilidade",
+      "User-Friendly",
+      "Multimídia"
+    ]
+  },
+  {
+    "nome": "CentOS Stream",
+    "descricao": "CentOS Stream é a plataforma de desenvolvimento contínuo que serve como upstream público do Red Hat Enterprise Linux, oferecendo prévia das futuras versões RHEL. Posicionado entre Fedora e RHEL, permite que desenvolvedores e administradores contribuam e testem próximas inovações enterprise antes do lançamento oficial, mantendo estabilidade enterprise-grade.",
+    "data_criacao": "2019",
+    "link": "https://www.centos.org/centos-stream/",
+    "tags": [
+      "Servidor",
+      "Linux",
+      "Enterprise",
+      "Rolling-Release",
+      "Development",
+      "Upstream"
+    ]
+  },
+  {
+    "nome": "Windows Server 2022",
+    "descricao": "Windows Server 2022 é a versão mais recente do sistema operacional de servidor da Microsoft, com foco intensificado em segurança híbrida, integração Azure e virtualização avançada. Introduz recursos como secured-core server, HTTP/3 e container improvements, oferecendo base robusta para infraestruturas on-premises, cloud híbrida e aplicações modernas empresariais.",
+    "data_criacao": "2021",
+    "link": "https://www.microsoft.com/windowsserver",
+    "tags": [
+      "Servidor",
+      "Cloud-Híbrida",
+      "Virtualização",
+      "Enterprise",
+      "Segurança",
+      "Azure"
+    ]
+  },
+  {
+    "nome": "AOSP (Android Open Source Project)",
+    "descricao": "AOSP é o código-fonte aberto fundamental que serve como base para o sistema operacional Android, permitindo criação de ROMs customizadas e dispositivos de nicho. Fornecendo kernel Linux modificado e stack Android básico, permite que fabricantes, desenvolvedores e entusiastas construam versões personalizadas do Android sem aplicações Google, mantendo controle total sobre o sistema.",
+    "data_criacao": "2008",
+    "link": "https://source.android.com/",
+    "tags": [
+      "Mobile",
+      "Open-Source",
+      "Embedded",
+      "Customização",
+      "Base-Android",
+      "Development"
+    ]
+  },
+  {
+    "nome": "Solaris",
+    "descricao": "Solaris é um sistema operacional Unix proprietário de alta performance, originalmente desenvolvido pela Sun Microsystems e agora mantido pela Oracle. Reconhecido por recursos avançados como ZFS, DTrace e containers Solaris, foi referência em scalability e reliability para aplicações enterprise críticas, especialmente em ambientes financeiros e de missão.",
+    "data_criacao": "1992",
+    "link": "https://www.oracle.com/solaris/",
+    "tags": [
+      "Servidor",
+      "Unix",
+      "Enterprise",
+      "Proprietário",
+      "Oracle",
+      "High-Performance"
+    ]
+  },
+  {
+    "nome": "PureOS",
+    "descricao": "PureOS é uma distribuição Linux focada em privacidade e segurança, desenvolvida pela Purism para seus dispositivos Librem. Sendo totalmente livre de blobs binários proprietários e pré-configurada para privacidade, oferece ambiente desktop seguro e ético, com aplicações padrão que priorizam segurança do usuário e controle sobre dados pessoais.",
+    "data_criacao": "2013",
+    "link": "https://pureos.net/",
+    "tags": [
+      "Cybersecurity",
+      "Privacidade",
+      "Desktop",
+      "Linux",
+      "Libre",
+      "Purism"
+    ]
+  },
+  {
+    "nome": "Nintendo Switch OS",
+    "descricao": "Nintendo Switch OS é o sistema operacional proprietário embarcado da Nintendo para seu console híbrido revolucionário, baseado em kernel FreeBSD modificado. Otimizado para transição seamless entre modos portátil e docked, oferece interface focada em jogos com Nintendo eShop, gestão de saves e funcionalidades sociais, priorizando experiência de gaming fluida e acessível.",
+    "data_criacao": "2017",
+    "link": "https://www.nintendo.com/switch/",
+    "tags": [
+      "Gaming",
+      "Embedded",
+      "Proprietário",
+      "Console",
+      "Nintendo",
+      "Híbrido"
+    ]
+  },
+  {
+    "nome": "Orbis OS",
+    "descricao": "Orbis OS é o sistema operacional proprietário utilizado nos consoles PlayStation 4 e PlayStation 5, baseado em versão altamente modificada do FreeBSD. Desenvolvido especificamente para gaming de alta performance, oferece baixa latência, integração profunda com serviços PlayStation Network e otimizações avançadas para gráficos 4K/8K e ray tracing nos consoles modernos.",
+    "data_criacao": "2013",
+    "link": "https://www.playstation.com/",
+    "tags": [
+      "Gaming",
+      "Embedded",
+      "Proprietário",
+      "Console",
+      "PlayStation",
+      "Performance"
+    ]
+  },
+  {
+    "nome": "Manjaro Linux",
+    "descricao": "Manjaro Linux é uma distribuição Linux amigável baseada em Arch Linux, focada em facilidade de uso, hardware moderno e acessibilidade. Combinando poder do Arch com instalação simplificada e ferramentas gráficas, oferece experiência rolling-release mais estável com acesso ao AUR, sendo ponte ideal entre usuários iniciantes e o ecossistema Arch avançado.",
+    "data_criacao": "2011",
+    "link": "https://manjaro.org/",
+    "tags": [
+      "Desktop",
+      "Linux",
+      "Rolling-Release",
+      "Iniciante",
+      "User-Friendly",
+      "Arch-Based"
+    ]
+  },
+  {
+    "nome": "Windows 8.1",
+    "descricao": "Windows 8.1 foi uma atualização significativa do Windows 8 que reintroduziu elementos de interface familiar como botão Iniciar, enquanto manteve a modernização touch-friendly. Focando em melhorias de produtividade, segurança e refinamento da experiência usuário, serviu como ponte importante entre a ousada interface Metro do Windows 8 e abordagem mais equilibrada do Windows 10.",
+    "data_criacao": "2013",
+    "link": "https://www.microsoft.com/",
+    "tags": [
+      "Desktop",
+      "Proprietário",
+      "Interface-Gráfica",
+      "Touch",
+      "Produtividade",
+      "Modern-UI"
+    ]
+  },
+  {
+    "nome": "Raspberry Pi OS",
+    "descricao": "Raspberry Pi OS é o sistema operacional oficial otimizado para a plataforma Raspberry Pi, baseado em Debian e ajustado para performance ARM. Oferecendo ambiente desktop completo e versão Lite headless, é ideal para educação, projetos IoT, prototipagem eletrônica e servidores compactos, com suporte nativo para GPIO e ecossistema Raspberry Pi completo.",
+    "data_criacao": "2013",
+    "link": "https://www.raspberrypi.org/software/",
+    "tags": [
+      "Embedded",
+      "Educacional",
+      "IoT",
+      "Linux",
+      "Raspberry-Pi",
+      "ARM"
+    ]
+  },
+  {
+    "nome": "ReactOS",
+    "descricao": "ReactOS é um ambicioso sistema operacional livre e de código aberto projetado para ser compatível binário com aplicações e drivers do Windows NT. Desenvolvido desde 1998, busca recriar arquitetura Windows sem usar código Microsoft, oferecendo alternativa open-source para usuários que necessitam compatibilidade Windows em ambiente livre e transparente.",
+    "data_criacao": "1998",
+    "link": "https://www.reactos.org/",
+    "tags": [
+      "Open-Source",
+      "Desktop",
+      "Windows-Compatible",
+      "NT-Architecture",
+      "Livre",
+      "Binary-Compatibility"
+    ]
+  },
+  {
+    "nome": "Azure Sphere OS",
+    "descricao": "Azure Sphere OS é um sistema operacional de alta segurança baseado em Linux, projetado especificamente para dispositivos IoT conectados Microsoft Azure. Combinando microcontrolador certificado, OS seguro e service de segurança na cloud, oferece proteção abrangente para dispositivos IoT enterprise, com atualizações automáticas e monitoramento contínuo de ameaças.",
+    "data_criacao": "2018",
+    "link": "https://azure.microsoft.com/",
+    "tags": [
+      "IoT",
+      "Segurança",
+      "Cloud",
+      "Microcontroladores",
+      "Azure",
+      "Enterprise-IoT"
+    ]
+  },
+  {
+    "nome": "HarmonyOS",
+    "descricao": "HarmonyOS é o sistema operacional distribuído da Huawei projetado para operar seamlessmente em múltiplas plataformas incluindo smartphones, tablets, wearables e dispositivos IoT. Utilizando arquitetura microkernel e distributed capability kit, permite que aplicações adaptem-se dinamicamente a diferentes dispositivos, criando ecossistema unificado e experiência de usuário coesa através de produtos conectados.",
+    "data_criacao": "2019",
+    "link": "https://www.harmonyos.com/",
+    "tags": [
+      "Mobile",
+      "IoT",
+      "Distribuído",
+      "Huawei",
+      "Multi-Device",
+      "Microkernel"
+    ]
+  },
+  {
+    "nome": "Fedora Silverblue",
+    "descricao": "Fedora Silverblue é uma variante imutável do Fedora com foco em confiabilidade e consistência através de atualizações atômicas e sistema read-only. Utilizando tecnologia ostree para deployments imutáveis, é ideal para desenvolvedores e usuários avançados que valorizam sistema estável e reproduzível, com aplicações containerizadas via Flatpak e desenvolvimento em containers Podman.",
+    "data_criacao": "2018",
+    "link": "https://silverblue.fedoraproject.org/",
+    "tags": [
+      "Desktop",
+      "Imutável",
+      "Containers",
+      "Desenvolvimento",
+      "OStree",
+      "Confiable"
+    ]
+  },
+  {
+    "nome": "Pop!_OS",
+    "descricao": "Pop!_OS é uma distribuição Linux baseada em Ubuntu, desenvolvida pela System76 e otimizada para seus hardwares, com foco em desenvolvedores, criadores de conteúdo e gaming. Oferecendo ambiente GNOME customizado, gestão avançada de gráficos NVIDIA/AMD e ferramentas de produtividade integradas, proporciona experiência polida e poderosa para trabalho criativo e jogos.",
+    "data_criacao": "2017",
+    "link": "https://pop.system76.com/",
+    "tags": [
+      "Desktop",
+      "Gaming",
+      "Desenvolvimento",
+      "Linux",
+      "System76",
+      "Criativo"
+    ]
+  },
+  {
+    "nome": "elementary OS",
+    "descricao": "elementary OS é uma distribuição Linux que se destaca por seu foco meticuloso em design elegante, experiência de usuário consistente e simplicidade intuitiva. Utilizando ambiente desktop Pantheon desenvolvido internamente, oferece experiência coesa e visualmente atraente que rivaliza com macOS em refinamento, priorizando usabilidade e estética para usuários que valorizam design.",
+    "data_criacao": "2011",
+    "link": "https://elementary.io/",
+    "tags": [
+      "Desktop",
+      "Design",
+      "Open-Source",
+      "Elegante",
+      "User-Experience",
+      "Pantheon"
+    ]
+  },
+  {
+    "nome": "Amazon Linux 2",
+    "descricao": "Amazon Linux 2 é o sistema operacional otimizado pela Amazon Web Services para ser executado em instâncias EC2 e serviços cloud AWS. Fornecendo ambiente estável, seguro e de alta performance com suporte de longo prazo, inclui ferramentas e integrações específicas para ecossistema AWS, sendo escolha padrão para workloads enterprise na cloud Amazon.",
+    "data_criacao": "2017",
+    "link": "https://aws.amazon.com/",
+    "tags": [
+      "Servidor",
+      "Cloud",
+      "Empresarial",
+      "AWS",
+      "EC2",
+      "Amazon"
+    ]
+  },
+  {
+    "nome": "Oracle Linux",
+    "descricao": "Oracle Linux é uma distribuição enterprise recompilada do Red Hat Enterprise Linux, otimizada e certificada para software e hardware Oracle. Oferecendo kernel Unbreakable Enterprise Kernel com melhorias de performance e integração profunda com produtos Oracle Database, Middleware e aplicações enterprise, é escolha natural para organizações padronizadas em stack Oracle.",
+    "data_criacao": "2006",
+    "link": "https://www.oracle.com/linux/",
+    "tags": [
+      "Servidor",
+      "Empresarial",
+      "Database",
+      "Oracle",
+      "RHEL-Compatible",
+      "Performance"
+    ]
+  },
+  {
+    "nome": "Microsoft MS-DOS",
+    "descricao": "MS-DOS foi o sistema operacional de linha de comando que dominou a computação pessoal IBM PC compatível durante os anos 80 e início dos 90. Servindo como base para o sucesso inicial da Microsoft, estabeleceu padrões para interface de usuário texto-based e gerenciamento de arquivos que influenciaram gerações subsequentes de sistemas operacionais, sendo marco histórico na evolução da computação pessoal.",
+    "data_criacao": "1981",
+    "link": "https://www.microsoft.com/",
+    "tags": [
+      "Linha-Comando",
+      "Histórico",
+      "Single-Tasking",
+      "Microsoft",
+      "Legacy",
+      "IBM-PC"
+    ]
+  },
+  {
+    "nome": "Windows CE (Compact Embedded)",
+    "descricao": "Windows CE foi uma família de sistemas operacionais modulares e de baixo consumo desenvolvidos pela Microsoft para sistemas embarcados, PDAs e dispositivos móveis compactos. Servindo como base para Windows Mobile, Pocket PC e plataformas embedded industriais, ofereceu versão minimalista do Windows para dispositivos com recursos limitados, influenciando desenvolvimento de IoT posterior.",
+    "data_criacao": "1996",
+    "link": "https://www.microsoft.com/",
+    "tags": [
+      "Embedded",
+      "Mobile",
+      "IoT",
+      "Microsoft",
+      "Legacy",
+      "Low-Footprint"
+    ]
+  },
+  {
+    "nome": "macOS Monterey",
+    "descricao": "macOS Monterey foi uma versão significativa introduzindo recursos como Universal Control, SharePlay e AirPlay para Mac. Continuando a tradição de refinamento e integração de ecossistema Apple, trouxe melhorias de produtividade entre dispositivos, ferramentas de colaboração avançadas e otimizações de privacidade, fortalecendo posição como plataforma preferida para usuários dentro do universo Apple.",
+    "data_criacao": "2021",
+    "link": "https://www.apple.com/macos/monterey/",
+    "tags": [
+      "Desktop",
+      "Proprietário",
+      "Apple",
+      "Produtividade",
+      "Ecosystem",
+      "Moderno"
+    ]
+  },
+  {
+    "nome": "Raspberry Pi OS Lite",
+    "descricao": "Raspberry Pi OS Lite é a versão headless minimalista do sistema operacional oficial para Raspberry Pi, otimizada para servidores e projetos IoT sem interface gráfica. Mantendo pequeno footprint e consumo eficiente de recursos, oferece base Debian sólida para aplicações embarcadas, servidores web, automation e projetos onde overhead gráfico é desnecessário ou indesejado.",
+    "data_criacao": "2015",
+    "link": "https://www.raspberrypi.org/",
+    "tags": [
+      "IoT",
+      "Servidor",
+      "Linha-Comando",
+      "Embedded",
+      "Headless",
+      "Raspberry-Pi"
+    ]
+  },
+  {
+    "nome": "Windows 7",
+    "descricao": "Windows 7 foi um sistema operacional desktop extremamente popular da Microsoft, amplamente aclamado por sua estabilidade, performance e interface usuário refinada. Representando resposta bem-sucedida ao controverso Windows Vista, estabeleceu novos padrões de usabilidade e confiabilidade que solidificaram domínio da Microsoft em computação pessoal, mantendo base de usuários leais anos após suporte oficial.",
+    "data_criacao": "2009",
+    "link": "https://www.microsoft.com/",
+    "tags": [
+      "Desktop",
+      "Histórico",
+      "Proprietário",
+      "Estabilidade",
+      "Popular",
+      "Legacy"
+    ]
+  },
+  {
+    "nome": "Ubuntu Core",
+    "descricao": "Ubuntu Core é a versão minimalista e transacional do Ubuntu focada em segurança, confiabilidade e dispositivos IoT, utilizando exclusivamente pacotes Snap. Projetado para aplicações embedded e edge computing, oferece atualizações atômicas, sistema de arquivos read-only e segurança reforçada, sendo ideal para dispositivos IoT enterprise, robótica e implantações industriais que demandam robustez.",
+    "data_criacao": "2014",
+    "link": "https://ubuntu.com/core",
+    "tags": [
+      "IoT",
+      "Transacional",
+      "Segurança",
+      "Embedded",
+      "Snap",
+      "Edge-Computing"
+    ]
+  },
+  {
+    "nome": "macOS High Sierra",
+    "descricao": "macOS High Sierra foi uma versão focada em refinamentos under-the-hood, notavelmente introduzindo o moderno sistema de arquivos APFS como padrão. Enquanto mantinha interface familiar, trouxe melhorias fundamentais de performance, eficiência de storage e foundation para futuras inovações, demonstrando compromisso da Apple em modernizar tecnologia core enquanto mantém experiência usuário consistente.",
+    "data_criacao": "2017",
+    "link": "https://www.apple.com/",
+    "tags": [
+      "Desktop",
+      "Proprietário",
+      "Apple",
+      "APFS",
+      "Performance",
+      "Foundation"
+    ]
+  },
+  {
+    "nome": "Windows XP",
+    "descricao": "Windows XP foi um dos sistemas operacionais mais icônicos e bem-sucedidos da Microsoft, marcando uma era de estabilidade e usabilidade na computação pessoal. Introduziu uma interface visual completamente renovada com temas Luna, melhorias significativas na estabilidade do kernel NT e suporte ampliado para multimídia e redes. Sua popularidade prolongada, mesmo após o fim do suporte oficial, demonstrou seu impacto duradouro como plataforma confiável para milhões de usuários domésticos e empresariais.",
+    "data_criacao": "2001",
+    "link": "https://www.microsoft.com/",
+    "tags": [
+      "Desktop",
+      "Proprietário",
+      "Histórico",
+      "Estabilidade",
+      "Popular",
+      "Microsoft"
+    ]
+  },
+  {
+    "nome": "Zorin OS",
+    "descricao": "Zorin OS é uma distribuição Linux baseada em Ubuntu, especificamente projetada para usuários vindos do Windows que buscam uma transição suave para o mundo open-source. Oferece um ambiente desktop altamente personalizável que pode imitar a aparência do Windows ou macOS, combinado com uma suíte de aplicativos pré-instalados para produtividade e multimídia. Sua filosofia centrada no usuário e foco na compatibilidade de hardware o tornam uma escolha ideal para iniciantes e empresas que desejam adotar Linux sem curva de aprendizado abrupta.",
+    "data_criacao": "2008",
+    "link": "https://zorin.com/os/",
+    "tags": [
+      "Desktop",
+      "Linux",
+      "User-Friendly",
+      "Windows-Like",
+      "Iniciante",
+      "Ubuntu-Based"
+    ]
+  },
+  {
+    "nome": "Casa OS",
+    "descricao": "Casa OS é um sistema operacional moderno desenvolvido especificamente para residências inteligentes, oferecendo uma plataforma unificada para gerenciamento de dispositivos IoT domésticos. Com interface intuitiva centrada no usuário, permite controle seamless de iluminação, segurança, entretenimento e climatização através de dashboard centralizado. Sua arquitetura modular e suporte a múltiplos protocolos de smart home tornam-no solução versátil para automação residencial personalizável, priorizando privacidade e interoperabilidade entre diferentes marcas de dispositivos.",
+    "data_criacao": "2022",
+    "link": "https://casaos.io/",
+    "tags": [
+      "IoT",
+      "Smart-Home",
+      "Automation",
+      "Embedded",
+      "Moderno",
+      "Central-Hub"
+    ]
+  },
+  {
+    "nome": "Windows 95",
+    "descricao": "Windows 95 representou uma revolução na computação pessoal ao introduzir elementos fundamentais que definiram a experiência desktop moderna por décadas. Seu lançamento massivo marcou a estreia do Menu Iniciar, Barra de Tarefas e Área de Trabalho como os conhecemos hoje, além do suporte nativo a 32 bits e interface plug-and-play para hardware. Este sistema operacional democratizou o acesso à computação gráfica e estabeleceu a Microsoft como dominante incontestável no mercado de sistemas operacionais para PCs durante os anos 90.",
+    "data_criacao": "1995",
+    "link": "https://www.microsoft.com/",
+    "tags": [
+      "Desktop",
+      "Proprietário",
+      "Histórico",
+      "Revolucionário",
+      "Microsoft",
+      "GUI-Moderna"
+    ]
+  },
+  {
+    "nome": "Windows 98",
+    "descricao": "Windows 98 foi uma evolução significativa do Windows 95, refinando a experiência do usuário e introduzindo integração profunda com a internet que refletia a era da web em crescimento. Trouxe melhorias como o Active Desktop, suporte nativo para USB, FAT32 e o Internet Explorer 4.0 integrado ao sistema. Sua segunda edição, Windows 98 SE, tornou-se particularmente popular com melhorias de rede e multimídia, consolidando a posição da Microsoft como líder de mercado enquanto pavimentava o caminho para o futuro Windows ME e XP.",
+    "data_criacao": "1998",
+    "link": "https://www.microsoft.com/",
+    "tags": [
+      "Desktop",
+      "Proprietário",
+      "Histórico",
+      "Internet-Integrated",
+      "Microsoft",
+      "Refinamento"
+    ]
+  }
 ]
