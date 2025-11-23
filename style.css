@@ -28,6 +28,26 @@ body.light-theme {
     --primary-color: #0b6efd; /* azul para destaque no claro */
 }
 
+/* Header transitions + ajustes para tema claro */
+header {
+    transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+/* Em modo claro, o cabeçalho fica opaco e com contraste adequado */
+body.light-theme header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: none;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--secondary-color);
+}
+
+/* Ajuste do botão de alternância no modo claro para bom contraste */
+body.light-theme #theme-toggle.theme-toggle {
+    background: var(--primary-color);
+    color: #ffffff;
+    border-color: rgba(11,110,237,0.12);
+}
+
 /* Scrollbar personalizada para um look mais integrado */
 ::-webkit-scrollbar {
     width: 8px;
@@ -79,6 +99,7 @@ header h1:hover {
 .search-container {
     display: flex;
     align-items: center;
+    max-width: 72rem; /* limita crescimento em telas muito largas */
 }
 
 #campo-busca {
@@ -91,6 +112,7 @@ header h1:hover {
     font-size: 1.2rem; /* Tamanho da fonte maior */
     transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
     width: 28rem; /* Largura do input */
+    max-width: 100%;
     color: var(--secondary-color); /* Cor do texto digitado */
 }
 
@@ -306,6 +328,14 @@ article a:hover {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Grid responsivo: 2 colunas em telas médias */
+@media (max-width: 1024px) {
+    main.results-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
     }
 }
 
