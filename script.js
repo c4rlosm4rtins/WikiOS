@@ -47,11 +47,12 @@ function iniciarBusca() {
     const termoBuscado = campoBusca.value.toLowerCase();
 
     if (termoBuscado === "") {
-        // Limpa apenas os cards de resultados, preservando a seção de introdução
-        const articles = mainContainer.querySelectorAll('article:not(#secao-intro article)');
-        articles.forEach(article => article.remove());
+        // Limpa apenas os cards de resultados e mensagem de "no results",
+        // preservando a seção de introdução
+        const removals = mainContainer.querySelectorAll(':scope > article, :scope > .no-results');
+        removals.forEach(el => el.remove());
 
-        secaoIntro.style.display = "block"; 
+        secaoIntro.style.display = "block";
         mainContainer.classList.remove("results-grid"); // Remove a classe da grade
         return;
     }
@@ -66,14 +67,17 @@ function iniciarBusca() {
 }
 
 function renderizarCards(dados) {
-    // Limpa apenas os cards de resultados, preservando a seção de introdução
-    const articles = mainContainer.querySelectorAll('article:not(#secao-intro article)');
-    articles.forEach(article => article.remove());
-
+    // Limpa apenas os cards de resultados e qualquer mensagem de "no results",
+    // preservando a seção de introdução
+    const removals = mainContainer.querySelectorAll(':scope > article, :scope > .no-results');
+    removals.forEach(el => el.remove());
 
     if (dados.length === 0) {
         mainContainer.classList.remove("results-grid");
-        mainContainer.innerHTML = `<p class="no-results">Nenhum sistema operacional encontrado para "${campoBusca.value}".</p>`;
+        const noResults = document.createElement('p');
+        noResults.className = 'no-results';
+        noResults.textContent = `Nenhum sistema operacional encontrado para "${campoBusca.value}".`;
+        mainContainer.appendChild(noResults);
         return;
     }
 
