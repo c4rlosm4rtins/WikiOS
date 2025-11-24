@@ -1,38 +1,38 @@
-# Base de Conhecimentos de Sistemas Operacionais
+# Operating Systems Knowledge Base
 
-Uma pequena enciclopédia interativa sobre Sistemas Operacionais — criada como projeto da Imersão Dev da Alura. Este site é leve, bonito e responsivo: perfeito para aprender, consultar ou impressionar recrutas no seu GitHub.
+A small interactive encyclopedia about Operating Systems — created as a project for Alura's "Imersão Dev". This site is lightweight, attractive, and responsive: perfect for learning, quick reference, or impressing recruiters on your GitHub.
 
-Se você chegou até aqui, parabéns — isso significa que você se interessa por tecnologia e gosta de código com estilo. Pegue um café, role a página e divirta-se explorando as curiosidades dos SOs! ☕🖥️
+If you've made it this far, congratulations — it means you care about technology and appreciate well-styled code. Grab a coffee, scroll through the page, and enjoy exploring OS curiosities! ☕🖥️
 
-**Destaques divertidos:**
-- Alternância entre tema escuro/claro (com preferência salva no navegador).
-- Busca em tempo real por nome ou tags.
-- Cards com descrição, ano e link de referência para cada SO.
-- Layout responsivo com atenção especial à versão mobile.
-
----
-
-**Demo rápido (o que fazer quando abrir o site):**
-- Use a barra de busca no topo para filtrar por nomes como `Ubuntu`, `Windows 11` ou por tags como `servidor`, `mobile`.
-- Clique no botão redondo no canto inferior direito para alternar entre claro/escuro.
-- Clique no título para resetar a busca.
+**Fun highlights:**
+- Toggle between dark and light themes (preference saved in the browser).
+- Real-time search by name or tags.
+- Cards with description, year, and a reference link for each OS.
+- Responsive layout with special attention to mobile.
 
 ---
 
-**Estrutura do projeto**
-
-- `index.html` — HTML simples e sem frameworks.
-- `style.css` — estilos modernos com variáveis e suporte a tema claro/escuro.
-- `script.js` — lógica de busca, renderização dos cards e alternância de tema com `localStorage`.
-- `data.json` — banco de dados local com informações sobre os sistemas operacionais.
-- `LICENSE` — licença do projeto.
+**Quick demo (what to do when you open the site):**
+- Use the search bar at the top to filter by names like `Ubuntu`, `Windows 11` or by tags like `server`, `mobile`.
+- Click the round button at the bottom-right corner to switch between light and dark themes.
+- Click the title to reset the search.
 
 ---
 
-Como o tema funciona
-- O tema padrão é o modo escuro (aquele que você provavelmente já ama). Quando o usuário clica no botão flutuante, o `body` recebe a classe `light-theme` e a preferência é salva em `localStorage` (chave: `theme`). Na próxima visita o site carrega no tema escolhido.
+**Project structure**
 
-Dica: se quiser resetar a preferência, abra o Console do navegador e execute:
+- `index.html` — Simple HTML, no frameworks.
+- `style.css` — Modern styles using CSS variables with support for light/dark themes.
+- `script.js` — Search logic, card rendering, and theme toggle (uses `localStorage`).
+- `data.json` — Local database containing the operating systems information.
+- `LICENSE` — Project license.
+
+---
+
+How the theme works
+- The default theme is dark (the one you probably love). When the user clicks the floating button, the `body` gets the `light-theme` class and the preference is saved to `localStorage` (key: `theme`). On the next visit the site loads with the chosen theme.
+
+Tip: to reset the preference, open the browser Console and run:
 
 ```
 localStorage.removeItem('theme'); location.reload();
@@ -40,26 +40,25 @@ localStorage.removeItem('theme'); location.reload();
 
 ---
 
-Responsividade e acessibilidade
-- O layout foi pensado para funcionar bem em desktop, tablet e mobile. O grid adapta-se para 3 → 2 → 1 colunas conforme a largura.
-- O botão de alternância é um botão real (`button`) com `aria-pressed` atualizado, e ícones SVG para escuro/claro.
+Responsiveness and accessibility
+- The layout is designed to work well on desktop, tablet, and mobile. The grid adapts from 3 → 2 → 1 columns depending on viewport width.
+- The theme toggle is a real `button` with updated `aria-pressed`, and uses SVG icons for dark/light states.
 
 ---
 
-Contribuições (bem-vindas!)
+Contributions (welcome!)
 
-Curtiu o projeto? Quer ver mais? Faça um fork, mexa no `data.json` para adicionar mais sistemas operacionais, melhore estilos em `style.css` ou abra uma issue com ideias.
+Liked the project? Want more? Fork it, edit `data.json` to add more operating systems, improve styles in `style.css`, or open an issue with ideas.
 
-Possiveis Melhorias futuras:
-- Buscar por descrição completa (full-text) ao invés de só nome/tags.
-- Adicionar paginação ou filtros por categoria (desktop, servidor, mobile).
-- Suporte a imagens / logos para cada card.
+Possible future improvements:
+- Search by full description (full-text) instead of only name/tags.
+- Add pagination or filters by category (desktop, server, mobile).
+- Support images / logos for each card.
 
-Como enviar uma contribuição rápida:
+How to quickly contribute:
 
-1. Fork este repositório.
-2. Crie uma branch com sua feature: `git checkout -b minha-melhora`
-3. Faça as alterações e commit: `git commit -am "Minha melhoria"`
-4. Envie para o seu fork: `git push origin minha-melhora`
-5. Abra um Pull Request explicando a mudança.
-
+1. Fork this repository.
+2. Create a branch for your feature: `git checkout -b my-improvement`
+3. Make changes and commit: `git commit -am "My improvement"`
+4. Push to your fork: `git push origin my-improvement`
+5. Open a Pull Request describing the change.
