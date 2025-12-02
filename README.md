@@ -1,6 +1,6 @@
 # Operating Systems Knowledge Base
 
-A small interactive encyclopedia about Operating Systems — created as a project for Alura's "Imersão Dev". This site is lightweight, attractive, and responsive: perfect for learning, quick reference, or impressing recruiters on your GitHub.
+A small interactive encyclopedia about Operating Systems — created as a project for Alura's "Imersão Dev". This site is lightweight, attractive, and responsive: perfect for learning, quick reference.
 
 If you've made it this far, congratulations — it means you care about technology and appreciate well-styled code. Grab a coffee, scroll through the page, and enjoy exploring OS curiosities! ☕🖥️
 
