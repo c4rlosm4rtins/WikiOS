@@ -1,6 +1,6 @@
 # WikiOS - Base de Conhecimentos de Sistemas Operacionais
 
-Uma pequena enciclopédia interativa sobre Sistemas Operacionais — criada como projeto da Imersão Dev da Alura. Este site é leve, bonito e responsivo: perfeito para aprender sobre os SO e vantagens e uso de cada um.
+Uma pequena enciclopédia interativa sobre Sistemas Operacionais — criada como projeto da Imersão Dev da Alura 10. Este site é leve, bonito e responsivo: perfeito para aprender sobre os SO e vantagens e uso de cada um.
 
 Se você chegou até aqui, parabéns — isso significa que você se interessa por tecnologia e gosta de código com estilo. Pegue um café, role a página e divirta-se explorando as curiosidades dos SOs! ☕🖥️
 
